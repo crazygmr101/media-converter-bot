@@ -16,8 +16,6 @@ async def on_ready():
 
 @bot.event
 async def on_message(message: discord.Message):
-    if message.author.id != 569362627935862784:
-        return
     if not message.attachments:
         return
 
